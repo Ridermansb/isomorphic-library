@@ -6,7 +6,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const { resolve } = require('path');
 
 module.exports = {
-    entry: [ 'babel-polyfill', './index.js' ],
+    entry: [ 'babel-polyfill', './src/index.js' ],
     output: {
         path: resolve('dist'),
         library: `[name]`,
@@ -25,7 +25,7 @@ module.exports = {
         new CompressionPlugin({
             asset: '[path].gz[query]',
             algorithm: 'gzip',
-            test: /\.(js|html)$/,
+            test: /\.(js)$/,
             threshold: 10240,
             minRatio: 0.8,
         }),
