@@ -6,6 +6,8 @@
 ![Node example](node.png)
 ![Browser example](browser.png)
 
+Live view [in node][1] and <a class="jsbin-embed" href="https://jsbin.com/soqafigitu/embed?js,console">browser</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+
 # Get starter
 
 **Install dependencies and build library**
@@ -28,3 +30,6 @@ npm link ../
 ## Others examples
 
  1. https://github.com/krasimir/webpack-library-starter
+ 
+ [1]: https://runkit.com/ridermansb/isomorphic-library-sample/1.0.0
+ [2]: 
