@@ -1,5 +1,5 @@
 import Todo from './todo';
-import List from './List';
+import List from './list';
 
 export { Todo };
 export { List };
