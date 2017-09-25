@@ -6,7 +6,7 @@
 ![Node example](node.png)
 ![Browser example](browser.png)
 
-Live view [in node][1] and <a class="jsbin-embed" href="https://jsbin.com/soqafigitu/embed?js,console">browser</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+Live view [in node][1] and [browser][2]
 
 # Get starter
 
@@ -32,4 +32,4 @@ npm link ../
  1. https://github.com/krasimir/webpack-library-starter
  
  [1]: https://runkit.com/ridermansb/isomorphic-library-sample/1.0.0
- [2]: 
+ [2]: https://jsbin.com/soqafigitu/edit?js,console
