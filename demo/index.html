@@ -1,0 +1,22 @@
+<html>
+
+<head>
+
+</head>
+<body>
+<script type="text/javascript" src="node_modules/isomorphic-library/lib/main.js"></script>
+<script type="text/javascript">
+
+    const shoppingList = new todos.List('Countdown');
+
+    shoppingList.todos.push(new todos.Todo('Potatos'));
+    shoppingList.todos.push(new todos.Todo('Bread'));
+    shoppingList.todos.push(new todos.Todo('Beef'));
+    shoppingList.todos.push(new todos.Todo('Eggs'));
+
+    console.log('Shopping list: ');
+    shoppingList.todos.forEach(it => console.log(`[ ] ${it.title}`));
+
+</script>
+</body>
+</html>
