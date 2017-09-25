@@ -1,0 +1,43 @@
+{
+  "name": "isomorphic-library",
+  "description": "isomorphic library with WebPack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --env production --config webpack.prod.js",
+    "commit": "npx git-cz",
+    "commitmsg": "npx validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "files": [
+    "dist/"
+  ],
+  "author": "ridermansb <ridermansb@gmail.com>",
+  "repository": "git@github.com:Ridermansb/isomorphic-library.git",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "clean-webpack-plugin": "0.1.16",
+    "compression-webpack-plugin": "1.0.0",
+    "cz-conventional-changelog": "2.0.0",
+    "validate-commit-msg": "2.14.0",
+    "webpack": "3.6.0",
+    "webpack-merge": "4.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "helpMessage": "\nPlease fix your commit message (and consider using http://npm.im/commitizen)\n",
+      "warnOnFail": false,
+      "autoFix": true
+    }
+  },
+  "engines": {
+    "node": ">=8.2.0",
+    "npm": ">=5.2.0"
+  }
+}
