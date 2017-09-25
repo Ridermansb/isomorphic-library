@@ -3,6 +3,25 @@
 
 > Isomorphic library sample with WebPack
 
+# Get starter
+
+**Install dependencies and build library**
+```  
+npm install
+npm run build
+npm link
+```
+
+**Use demo**
+```  
+cd demo
+npm install
+npm link ../
+``` 
+**Check the results**  
+ 1. Inside the demo folder `node index.js`
+ 2. Open `index.html`
+
 ## Others examples
 
  1. https://github.com/krasimir/webpack-library-starter
